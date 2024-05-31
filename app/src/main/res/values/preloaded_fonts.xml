@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/aclonica</item>
+        <item>@font/acme</item>
+        <item>@font/adamina</item>
+        <item>@font/alata</item>
+        <item>@font/alatsi</item>
+        <item>@font/aldrich</item>
+        <item>@font/aleo_light</item>
+        <item>@font/alex_brush</item>
+        <item>@font/allerta</item>
+        <item>@font/amethysta</item>
+        <item>@font/amiko</item>
+        <item>@font/anton</item>
+        <item>@font/arbutus</item>
+        <item>@font/architects_daughter</item>
+        <item>@font/archivo</item>
+        <item>@font/aref_ruqaa</item>
+        <item>@font/audiowide</item>
+        <item>@font/bad_script</item>
+        <item>@font/baloo</item>
+        <item>@font/baloo_bhai_2</item>
+        <item>@font/baloo_bhaijaan</item>
+        <item>@font/balsamiq_sans</item>
+        <item>@font/cabin</item>
+        <item>@font/chango</item>
+        <item>@font/concert_one</item>
+        <item>@font/days_one</item>
+        <item>@font/kavoon</item>
+        <item>@font/marck_script</item>
+        <item>@font/overlock</item>
+        <item>@font/pacifico</item>
+        <item>@font/sniglet</item>
+    </array>
+</resources>

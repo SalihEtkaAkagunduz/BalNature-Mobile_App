@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_istatistic"
+    app:startDestination="@id/fragment_istatistik_1">
+
+    <fragment
+        android:id="@+id/fragment_istatistik_1"
+        android:name="com.erasmus.balnature.fragment_istatistik_1"
+        android:label="fragment_istatistik_1"
+        tools:layout="@layout/fragment_istatistik_1" />
+    <fragment
+        android:id="@+id/fragment_istatistik_2"
+        android:name="com.erasmus.balnature.fragment_istatistik_2"
+        android:label="fragment_istatistik_2"
+        tools:layout="@layout/fragment_istatistik_2" />
+    <fragment
+        android:id="@+id/fragment_istatistik_3"
+        android:name="com.erasmus.balnature.fragment_istatistik_3"
+        android:label="fragment_istatistik_3"
+        tools:layout="@layout/fragment_istatistik_3" />
+    <fragment
+        android:id="@+id/fragment_istatistik_4"
+        android:name="com.erasmus.balnature.fragment_istatistik_4"
+        android:label="fragment_istatistik_4"
+        tools:layout="@layout/fragment_istatistik_4" />
+    <fragment
+        android:id="@+id/fragment_istatistik_5"
+        android:name="com.erasmus.balnature.fragment_istatistik_5"
+        android:label="fragment_istatistik_5"
+        tools:layout="@layout/fragment_istatistik_5" />
+</navigation>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "36659871758",
+    "project_id": "balnature",
+    "storage_bucket": "balnature.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:36659871758:android:492cddf90d09a7fb1e3c5f",
+        "android_client_info": {
+          "package_name": "com.erasmus.balnature"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "36659871758-gc265p5las7tjnu63pleiivv10m85ksd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpdNafh3KOlt0RyAe7zuN6XgcOJxsD-c0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "36659871758-9o9d5h6rmhqveclrgtk77o4vbitigno1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_oyun"
+    app:startDestination="@id/fragment_oyun_1">
+
+    <fragment
+        android:id="@+id/fragment_oyun_1"
+        android:name="com.erasmus.balnature.fragment_oyun_1"
+        android:label="fragment_oyun_1"
+        tools:layout="@layout/fragment_oyun_1" >
+        <action
+            android:id="@+id/action_fragment_oyun_1_to_fragment_oyun_2"
+            app:destination="@id/fragment_oyun_2" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_oyun_2"
+        android:name="com.erasmus.balnature.fragment_oyun_2"
+        android:label="fragment_oyun_2"
+        tools:layout="@layout/fragment_oyun_2" >
+        <action
+            android:id="@+id/action_fragment_oyun_2_to_fragment_oyun_3"
+            app:destination="@id/fragment_oyun_3" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_oyun_3"
+        android:name="com.erasmus.balnature.fragment_oyun_3"
+        android:label="fragment_oyun_3"
+        tools:layout="@layout/fragment_oyun_3" >
+        <action
+            android:id="@+id/action_fragment_oyun_3_to_fragment_oyun_4"
+            app:destination="@id/fragment_oyun_4" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_oyun_4"
+        android:name="com.erasmus.balnature.fragment_oyun_4"
+        android:label="fragment_oyun_4"
+        tools:layout="@layout/fragment_oyun_4" />
+</navigation>

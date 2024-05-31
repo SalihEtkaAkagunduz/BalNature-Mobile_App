@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_login"
+    app:startDestination="@id/fragment_login_giris">
+
+    <fragment
+        android:id="@+id/fragment_login_giris"
+        android:name="com.erasmus.balnature.fragment_login_giris"
+        android:label="fragment_login_giris"
+        tools:layout="@layout/fragment_login_giris" />
+    <fragment
+        android:id="@+id/fragment_login_giris_yap"
+        android:name="com.erasmus.balnature.fragment_login_giris_yap"
+        android:label="fragment_login_giris_yap"
+        tools:layout="@layout/fragment_login_giris_yap" />
+    <fragment
+        android:id="@+id/fragment_login_kayit_ol"
+        android:name="com.erasmus.balnature.fragment_login_kayit_ol"
+        android:label="fragment_login_kayit_ol"
+        tools:layout="@layout/fragment_login_kayit_ol" >
+        <action
+            android:id="@+id/action_fragment_login_kayit_ol_to_fragment_login_isim"
+            app:destination="@id/fragment_login_isim"
+            app:enterAnim="@android:anim/fade_in" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_login_isim"
+        android:name="com.erasmus.balnature.fragment_login_isim"
+        android:label="fragment_login_isim"
+        tools:layout="@layout/fragment_login_isim" >
+        <action
+            android:id="@+id/action_fragment_login_isim_to_fragment_login_tarih"
+            app:destination="@id/fragment_login_tarih"
+            app:enterAnim="@android:anim/fade_in" />
+        <argument
+            android:name="email"
+            app:argType="string"
+            android:defaultValue="boş" />
+        <argument
+            android:name="parola"
+            app:argType="string"
+            android:defaultValue="bos" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_login_tarih"
+        android:name="com.erasmus.balnature.fragment_login_tarih"
+        android:label="fragment_login_tarih"
+        tools:layout="@layout/fragment_login_tarih" >
+        <action
+            android:id="@+id/action_fragment_login_tarih_to_fragment_login_son"
+            app:destination="@id/fragment_login_son"
+            app:enterAnim="@android:anim/fade_in" />
+        <argument
+            android:name="email"
+            app:argType="string"
+            android:defaultValue="bos" />
+        <argument
+            android:name="parola"
+            app:argType="string"
+            android:defaultValue="bos" />
+        <argument
+            android:name="soyisim"
+            app:argType="string"
+            android:defaultValue="aa" />
+        <argument
+            android:name="metin"
+            app:argType="string"
+            android:defaultValue="a" />
+        <argument
+            android:name="ad"
+            app:argType="string"
+            android:defaultValue="adsa" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_login_son"
+        android:name="com.erasmus.balnature.fragment_login_son"
+        android:label="fragment_login_son"
+        tools:layout="@layout/fragment_login_son" >
+        <argument
+            android:name="tarih"
+            app:argType="long"
+            android:defaultValue="1L" />
+        <argument
+            android:name="email"
+            app:argType="string"
+            android:defaultValue="bos" />
+        <argument
+            android:name="parola"
+            app:argType="string"
+            android:defaultValue="bos" />
+        <argument
+            android:name="soyisim"
+            app:argType="string"
+            android:defaultValue="aa" />
+        <argument
+            android:name="metin"
+            app:argType="string"
+            android:defaultValue="w" />
+        <argument
+            android:name="ad"
+            app:argType="string"
+            android:defaultValue="lşiklş" />
+    </fragment>
+</navigation>

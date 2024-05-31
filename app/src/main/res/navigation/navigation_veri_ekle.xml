@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_veri_ekle"
+    app:startDestination="@id/fragment_veri_ekle_ana">
+
+    <fragment
+        android:id="@+id/fragment_veri_ekle_fagment_1"
+        android:name="com.erasmus.balnature.fragment_veri_ekle_fagment_1"
+        android:label="fragment_veri_ekle_fagment_1"
+        tools:layout="@layout/fragment_veri_ekle_fagment_1" >
+        <action
+            android:id="@+id/iki"
+            app:destination="@id/fragment_veri_ekle_fragment_2"
+            app:enterAnim="@android:anim/fade_in" />
+        <argument
+            android:name="asda"
+            app:argType="float"
+            android:defaultValue="33.2" />
+        <action
+            android:id="@+id/ikit"
+            app:destination="@id/fragment_veri_ekle_ana" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_veri_ekle_fragment_2"
+        android:name="com.erasmus.balnature.fragment_veri_ekle_fragment_2"
+        android:label="fragment_veri_ekle_fragment_2"
+        tools:layout="@layout/fragment_veri_ekle_fragment_2" >
+        <action
+            android:id="@+id/üç"
+            app:destination="@id/fragment_veri_ekle_fragment_3"
+            app:enterAnim="@android:anim/fade_in" />
+        <action
+            android:id="@+id/üçt"
+            app:destination="@id/fragment_veri_ekle_fagment_1" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_veri_ekle_fragment_3"
+        android:name="com.erasmus.balnature.fragment_veri_ekle_fragment_3"
+        android:label="fragment_veri_ekle_fragment_3"
+        tools:layout="@layout/fragment_veri_ekle_fragment_3" >
+        <action
+            android:id="@+id/dört"
+            app:destination="@id/fragment_veri_ekle_fragment_4"
+            app:enterAnim="@android:anim/fade_in" />
+        <action
+            android:id="@+id/action_fragment_veri_ekle_fragment_3_to_fragment_veri_ekle_fragment_2"
+            app:destination="@id/fragment_veri_ekle_fragment_2" />
+        <action
+            android:id="@+id/dörtt"
+            app:destination="@id/fragment_veri_ekle_fragment_2" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_veri_ekle_fragment_4"
+        android:name="com.erasmus.balnature.fragment_veri_ekle_fragment_4"
+        android:label="fragment_veri_ekle_fragment_4"
+        tools:layout="@layout/fragment_veri_ekle_fragment_4" >
+        <action
+            android:id="@+id/beşt"
+            app:destination="@id/fragment_veri_ekle_fragment_3" />
+        <action
+            android:id="@+id/bes"
+            app:destination="@id/fragment_veri_ekle_fragment_5" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_veri_ekle_ana"
+        android:name="com.erasmus.balnature.fragment_veri_ekle_ana"
+        android:label="fragment_veri_ekle_ana"
+        tools:layout="@layout/fragment_veri_ekle_ana" >
+        <action
+            android:id="@+id/ilkk"
+            app:destination="@id/fragment_veri_ekle_fagment_1"
+            app:enterAnim="@android:anim/fade_in" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_veri_ekle_fragment_5"
+        android:name="com.erasmus.balnature.fragment_veri_ekle_fragment_5"
+        android:label="fragment_veri_ekle_fragment_5"
+        tools:layout="@layout/fragment_veri_ekle_fragment_5" >
+        <action
+            android:id="@+id/altıt"
+            app:destination="@id/fragment_veri_ekle_fragment_4" />
+        <action
+            android:id="@+id/altı"
+            app:destination="@id/fragment_veri_ekle_fragment_6" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_veri_ekle_fragment_6"
+        android:name="com.erasmus.balnature.fragment_veri_ekle_fragment_6"
+        android:label="fragment_veri_ekle_fragment_6"
+        tools:layout="@layout/fragment_veri_ekle_fragment_6" >
+        <action
+            android:id="@+id/yedit"
+            app:destination="@id/fragment_veri_ekle_fragment_5" />
+        <action
+            android:id="@+id/yedi"
+            app:destination="@id/fragment_veri_ekle_fragment_7" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_veri_ekle_fragment_7"
+        android:name="com.erasmus.balnature.fragment_veri_ekle_fragment_7"
+        android:label="fragment_veri_ekle_fragment_7"
+        tools:layout="@layout/fragment_veri_ekle_fragment_7" >
+        <action
+            android:id="@+id/sekizt"
+            app:destination="@id/fragment_veri_ekle_fragment_6" />
+        <action
+            android:id="@+id/sekiz"
+            app:destination="@id/fragment_veri_ekle_fragment_8" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_veri_ekle_fragment_8"
+        android:name="com.erasmus.balnature.fragment_veri_ekle_fragment_8"
+        android:label="fragment_veri_ekle_fragment_8"
+        tools:layout="@layout/fragment_veri_ekle_fragment_8" >
+        <action
+            android:id="@+id/dokuzt"
+            app:destination="@id/fragment_veri_ekle_fragment_7" />
+        <action
+            android:id="@+id/dokuzz"
+            app:destination="@id/fragment_veri_ekle_ana" />
+    </fragment>
+
+</navigation>

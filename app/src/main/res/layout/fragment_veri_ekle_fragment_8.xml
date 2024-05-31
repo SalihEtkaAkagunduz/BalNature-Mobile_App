@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".fragment_veri_ekle_fragment_8">
+<androidx.core.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#CACACA">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout25sg"
+            android:layout_width="0dp"
+            android:layout_height="192dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/fragment_veri_ekle_yesil_shape"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout25g">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraintLayout461"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginBottom="-15dp"
+                android:background="@drawable/fragment_veri_ekle_beyaz_shape"
+                android:backgroundTint="#C5B30D"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/constraintLayout472">
+
+                <ProgressBar
+                    android:id="@+id/progressBar14"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="146dp"
+                    android:layout_height="11dp"
+                    android:layout_marginTop="16dp"
+                    android:max="100"
+                    android:progress="88"
+                    android:progressTint="#C833D8"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/progressBar16"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ProgressBar
+                    android:id="@+id/progressBar15"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="146dp"
+                    android:layout_height="11dp"
+                    android:layout_marginTop="16dp"
+                    android:max="100"
+                    android:progress="66"
+                    android:progressTint="#F9A825"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/progressBar17"
+                    app:layout_constraintTop_toBottomOf="@+id/progressBar14" />
+
+                <ProgressBar
+                    android:id="@+id/progressBar16"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="146dp"
+                    android:layout_height="11dp"
+                    android:layout_marginTop="16dp"
+                    android:max="100"
+                    android:progress="22"
+                    android:progressTint="#01579B"
+                    app:layout_constraintEnd_toStartOf="@+id/progressBar14"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ProgressBar
+                    android:id="@+id/progressBar17"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="146dp"
+                    android:layout_height="11dp"
+                    android:layout_marginTop="16dp"
+                    android:max="100"
+                    android:progress="55"
+                    android:progressTint="#EF6C00"
+                    app:layout_constraintEnd_toStartOf="@+id/progressBar15"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/progressBar16" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraintLayout45aq"
+                android:layout_width="181dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/fragment_veri_ekle_gri_shape"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/textView89q"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/allerta"
+                    android:text="@string/fragment_istatistik_4_geridönüsüm"
+                    android:textColor="@color/baslangic_background"
+                    android:textSize="16sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraintLayout472"
+                android:layout_width="394dp"
+                android:layout_height="0dp"
+                app:layout_constraintBottom_toTopOf="@+id/constraintLayout461"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/constraintLayout45aq">
+
+                <ProgressBar
+                    android:id="@+id/progressBar133"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="326dp"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="24dp"
+                    android:max="100"
+                    android:progress="81"
+                    android:progressTint="#C5B30D"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout25g"
+            android:layout_width="0dp"
+            android:layout_height="192dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/fragment_veri_ekle_yesil_shape"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout25ga">
+
+            <ProgressBar
+                android:id="@+id/progressBar11"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="146dp"
+                android:layout_height="11dp"
+                android:layout_marginTop="24dp"
+                android:max="100"
+                android:progress="88"
+                android:progressTint="#C833D8"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.492"
+                app:layout_constraintStart_toEndOf="@+id/progressBar9"
+                app:layout_constraintTop_toBottomOf="@+id/progressBar8" />
+
+            <ProgressBar
+                android:id="@+id/progressBar10"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="146dp"
+                android:layout_height="11dp"
+                android:layout_marginTop="24dp"
+                android:max="100"
+                android:progress="55"
+                android:progressTint="#EF6C00"
+                app:layout_constraintEnd_toStartOf="@+id/progressBar8"
+                app:layout_constraintHorizontal_bias="0.507"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/progressBar9" />
+
+            <ProgressBar
+                android:id="@+id/progressBar9"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="146dp"
+                android:layout_height="11dp"
+                android:layout_marginTop="16dp"
+                android:max="100"
+                android:progress="22"
+                android:progressTint="#01579B"
+                app:layout_constraintEnd_toStartOf="@+id/progressBar8"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/constraintLayout45aqq" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraintLayout45aqq"
+                android:layout_width="181dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/fragment_veri_ekle_gri_shape"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/textView89qq"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/allerta"
+                    android:text="@string/fragment_veri_ekle_atikanaliz"
+                    android:textColor="@color/baslangic_background"
+                    android:textSize="16sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <ProgressBar
+                android:id="@+id/progressBar8"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="146dp"
+                android:layout_height="11dp"
+                android:layout_marginTop="16dp"
+                android:max="100"
+                android:progress="66"
+                android:progressTint="#F9A825"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/progressBar9"
+                app:layout_constraintTop_toBottomOf="@+id/constraintLayout45aqq" />
+
+            <ProgressBar
+                android:id="@+id/progressBar12"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="0dp"
+                android:layout_height="15dp"
+                android:layout_marginTop="24dp"
+                android:max="100"
+                android:progress="81"
+                android:progressTint="#4E4B4E"
+                app:layout_constraintEnd_toEndOf="@+id/progressBar11"
+                app:layout_constraintStart_toStartOf="@+id/progressBar10"
+                app:layout_constraintTop_toBottomOf="@+id/progressBar11" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout31"
+            android:layout_width="0dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="75dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout45">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:background="@drawable/fragment_veri_ekle_yesil_shape"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="189dp"
+                android:layout_height="65dp"
+                android:background="@drawable/fragment_veri_ekle_yesil_shape"
+                app:layout_constraintEnd_toEndOf="parent"
+                tools:layout_editor_absoluteY="0dp">
+
+                <Button
+                    android:id="@+id/button14"
+                    android:layout_width="83dp"
+                    android:layout_height="58dp"
+                    android:layout_marginEnd="8dp"
+                    android:backgroundTint="#8A8C89"
+                    android:text="@string/fragment_login_son_bitir"
+                    app:cornerRadius="10dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <Button
+                    android:id="@+id/button13"
+                    android:layout_width="83dp"
+                    android:layout_height="58dp"
+                    android:layout_marginStart="8dp"
+                    android:backgroundTint="#8A8C89"
+                    android:text="@string/fragment_veri_ekle_geri"
+                    app:cornerRadius="10dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout25ga"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/fragment_veri_ekle_yesil_shape"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/textView80ga"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/allerta"
+                android:text="@string/fragment_veri_ekle_5adim"
+                android:textColor="@color/baslangic_background"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.5" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout25sgr"
+            android:layout_width="0dp"
+            android:layout_height="192dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/fragment_veri_ekle_yesil_shape"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout25sg">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraintLayout47"
+                android:layout_width="394dp"
+                android:layout_height="0dp"
+                app:layout_constraintBottom_toTopOf="@+id/constraintLayout46"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/constraintLayout45aqqq">
+
+                <ProgressBar
+                    android:id="@+id/progressBar13"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="326dp"
+                    android:layout_height="0dp"
+                    android:layout_marginBottom="16dp"
+                    android:max="100"
+                    android:progress="81"
+                    android:progressTint="#FF8A80"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraintLayout46"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginBottom="-15dp"
+                android:background="@drawable/fragment_veri_ekle_beyaz_shape"
+                android:backgroundTint="#FF8A80"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/constraintLayout47">
+
+                <ProgressBar
+                    android:id="@+id/progressBar18"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="146dp"
+                    android:layout_height="11dp"
+                    android:layout_marginTop="16dp"
+                    android:max="100"
+                    android:progress="22"
+                    android:progressTint="#01579B"
+                    app:layout_constraintEnd_toStartOf="@+id/progressBar21"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ProgressBar
+                    android:id="@+id/progressBar19"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="146dp"
+                    android:layout_height="11dp"
+                    android:layout_marginTop="16dp"
+                    android:max="100"
+                    android:progress="55"
+                    android:progressTint="#EF6C00"
+                    app:layout_constraintEnd_toStartOf="@+id/progressBar20"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/progressBar18" />
+
+                <ProgressBar
+                    android:id="@+id/progressBar20"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="146dp"
+                    android:layout_height="11dp"
+                    android:layout_marginTop="16dp"
+                    android:max="100"
+                    android:progress="66"
+                    android:progressTint="#F9A825"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/progressBar19"
+                    app:layout_constraintTop_toBottomOf="@+id/progressBar21" />
+
+                <ProgressBar
+                    android:id="@+id/progressBar21"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="146dp"
+                    android:layout_height="11dp"
+                    android:layout_marginTop="16dp"
+                    android:max="100"
+                    android:progress="88"
+                    android:progressTint="#C833D8"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/progressBar18"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraintLayout45aqqq"
+                android:layout_width="211dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/fragment_veri_ekle_gri_shape"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/textView89qqq"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/allerta"
+                    android:text="@string/fragment_veri_ekle_atikveriler"
+                    android:textColor="@color/baslangic_background"
+                    android:textSize="16sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout37"
+            android:layout_width="0dp"
+            android:layout_height="390dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/fragment_veri_ekle_yesil_shape"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout25sgr">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraintLayout45aww"
+                android:layout_width="190dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/fragment_veri_ekle_gri_shape"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/textView89ww"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/allerta"
+                    android:text="@string/fragment_veri_ekle_dogayakatki"
+                    android:textColor="@color/baslangic_background"
+                    android:textSize="16sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout40"
+            android:layout_width="0dp"
+            android:layout_height="339dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/fragment_veri_ekle_yesil_shape"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout37">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraintLayout45aee"
+                android:layout_width="200dp"
+                android:layout_height="37dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/fragment_veri_ekle_gri_shape"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/textView89ee"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/allerta"
+                    android:text="@string/fragment_veri_ekle_kaydiniztanimlandi"
+                    android:textColor="@color/baslangic_background"
+                    android:textSize="16sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:id="@+id/textView97"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="32dp"
+                android:fontFamily="@font/sniglet"
+                android:paddingStart="32dp"
+                android:paddingEnd="32dp"
+                android:text="@string/fragment_veri_ekle_bitismetni"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/constraintLayout45aee" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout45"
+            android:layout_width="0dp"
+            android:layout_height="165dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/fragment_veri_ekle_yesil_shape"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constraintLayout40">
+
+            <RatingBar
+                android:id="@+id/ratingBar"
+                android:layout_width="288dp"
+                android:layout_height="55dp"
+                android:max="100"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/constraintLayout45arr" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraintLayout45arr"
+                android:layout_width="181dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/fragment_veri_ekle_gri_shape"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/textView89"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/allerta"
+                    android:text="@string/fragment_veri_ekle_degerlendir"
+                    android:textColor="@color/baslangic_background"
+                    android:textSize="16sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

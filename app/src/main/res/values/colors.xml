@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#ffff</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="toolbarrenk">#161a1f</color>
+    <color name="toolbarçicgirenk">#383c40</color>
+    <color name="tablayouttiklandi">#7A7C7E</color>
+    <color name="navigationdraweraltyazı">#B6B8BA</color>
+    <color name="kisilerrenk">#8EA7BF</color>
+    <color name="link">#1BB2D8</color>
+    <color name="login_yesil_renk">#7CBD4D</color>
+    <color name="gradiant_login_renk_start">#13547a</color>
+    <color name="gradiant_login_renk_end">#80d0c7</color>
+    <color name="fragment_veri_ekle_menu_ust_renk">#339138</color>
+    <color name="ust_resim_renk">#59975C</color>
+    <color name="veri_ekle_color">#6DB351</color>
+    <color name="renkaa">#1F2933</color>
+    <color name="renkiste">#6F716F</color>
+
+</resources>

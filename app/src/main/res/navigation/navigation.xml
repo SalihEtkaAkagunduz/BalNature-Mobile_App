@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/anamenu">
+    <fragment
+        android:id="@+id/anamenu"
+        android:name="com.erasmus.balnature.anamenu"
+        android:label="fragment_anamenu"
+        tools:layout="@layout/fragment_anamenu" >
+        <action
+            android:id="@+id/action_anamenu_to_veri"
+            app:destination="@id/fragment_veri2"
+            app:enterAnim="@android:anim/fade_in" />
+        <action
+            android:id="@+id/action_anamenu_to_bildirim"
+            app:destination="@id/bildirim" />
+        <action
+            android:id="@+id/action_anamenu_to_oyun"
+            app:destination="@id/oyun" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_veri2"
+        android:name="com.erasmus.balnature.veri"
+        android:label="fragment_veri2"
+        tools:layout="@layout/fragment_veri2" >
+        <action
+            android:id="@+id/action_fragment_veri2_to_hakkinda"
+            app:destination="@id/hakkinda" />
+        <action
+            android:id="@+id/action_fragment_veri2_to_hakkinda2"
+            app:destination="@id/hakkinda" />
+    </fragment>
+    <fragment
+        android:id="@+id/hakkinda"
+        android:name="com.erasmus.balnature.hakkinda"
+        android:label="fragment_hakkinda"
+        tools:layout="@layout/fragment_hakkinda" >
+        <action
+            android:id="@+id/action_hakkinda_to_iststistikler"
+            app:destination="@id/iststistikler" />
+    </fragment>
+    <fragment
+        android:id="@+id/iststistikler"
+        android:name="com.erasmus.balnature.iststistikler"
+        android:label="fragment_iststistikler"
+        tools:layout="@layout/fragment_iststistikler" >
+        <action
+            android:id="@+id/action_iststistikler_to_araclar"
+            app:destination="@id/araclar" />
+    </fragment>
+    <fragment
+        android:id="@+id/araclar"
+        android:name="com.erasmus.balnature.araclar"
+        android:label="fragment_araclar"
+        tools:layout="@layout/fragment_araclar" >
+        <action
+            android:id="@+id/action_araclar_to_oneriler"
+            app:destination="@id/oneriler" />
+    </fragment>
+    <fragment
+        android:id="@+id/oneriler"
+        android:name="com.erasmus.balnature.oneriler"
+        android:label="fragment_oneriler"
+        tools:layout="@layout/fragment_oneriler" >
+        <action
+            android:id="@+id/action_oneriler_to_hesapayarlari"
+            app:destination="@id/hesapayarlari" />
+    </fragment>
+    <fragment
+        android:id="@+id/hesapayarlari"
+        android:name="com.erasmus.balnature.hesapayarlari"
+        android:label="fragment_hesapayarlari"
+        tools:layout="@layout/fragment_hesapayarlari" />
+    <fragment
+        android:id="@+id/ayarlar"
+        android:name="com.erasmus.balnature.ayarlar"
+        android:label="fragment_ayarlar"
+        tools:layout="@layout/fragment_ayarlar" />
+    <fragment
+        android:id="@+id/bildirim"
+        android:name="com.erasmus.balnature.bildirim"
+        android:label="fragment_bildirim"
+        tools:layout="@layout/fragment_bildirim" >
+        <action
+            android:id="@+id/action_bildirim_to_fragment_bildirim_goster"
+            app:destination="@id/fragment_bildirim_goster" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_bildirim_goster"
+        android:name="com.erasmus.balnature.fragment_bildirim_goster"
+        android:label="fragment_bildirim_goster"
+        tools:layout="@layout/fragment_bildirim_goster" />
+    <fragment
+        android:id="@+id/oyun"
+        android:name="com.erasmus.balnature.oyun"
+        android:label="oyun" >
+        <action
+            android:id="@+id/action_oyun_to_fragment_oyundetay"
+            app:destination="@id/fragment_oyundetay" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_oyundetay"
+        android:name="com.erasmus.balnature.fragment_oyundetay"
+        android:label="fragment_oyundetay"
+        tools:layout="@layout/fragment_oyundetay" >
+        <action
+            android:id="@+id/action_fragment_oyundetay_to_oyun"
+            app:destination="@id/oyun" />
+    </fragment>
+</navigation>

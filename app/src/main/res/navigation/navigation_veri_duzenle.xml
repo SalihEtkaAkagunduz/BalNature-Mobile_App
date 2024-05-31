@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_veri_duzenle"
+    app:startDestination="@id/fragment_veri_duzenle_fragment_12">
+    <fragment
+        android:id="@+id/fragment_veri_duzenle_fragment_12"
+        android:name="com.erasmus.balnature.fragment_veri_duzenle_fragment_1"
+        android:label="fragment_veri_duzenle_fragment_1"
+        tools:layout="@layout/fragment_veri_duzenle_fragment_1" >
+        <action
+            android:id="@+id/too"
+            app:destination="@id/fragment_veri_duzenle_fragment_2" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_veri_duzenle_fragment_2"
+        android:name="com.erasmus.balnature.fragment_veri_duzenle_fragment_2"
+        android:label="fragment_veri_duzenle_fragment_2"
+        tools:layout="@layout/fragment_veri_duzenle_fragment_2" >
+        <action
+            android:id="@+id/tooo"
+            app:destination="@id/fragment_veri_duzenle_fragment_12" />
+    </fragment>
+</navigation>

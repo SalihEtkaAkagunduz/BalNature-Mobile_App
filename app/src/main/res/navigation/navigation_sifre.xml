@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_sifre"
+    app:startDestination="@id/fragment_ayarlar_sifrailk">
+
+    <fragment
+        android:id="@+id/fragment_ayarlar_sifrailk"
+        android:name="com.erasmus.balnature.fragment_ayarlar_sifrailk"
+        android:label="fragment_ayarlar_sifrailk"
+        tools:layout="@layout/fragment_ayarlar_sifrailk" >
+        <action
+            android:id="@+id/action_fragment_ayarlar_sifrailk_to_fragment_ayarlar_sifre2"
+            app:destination="@id/fragment_ayarlar_sifre2" />
+        <action
+            android:id="@+id/action_fragment_ayarlar_sifrailk_to_fragment_ayarlar_sifremenu"
+            app:destination="@id/fragment_ayarlar_sifremenu" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_ayarlar_sifremenu"
+        android:name="com.erasmus.balnature.fragment_ayarlar_sifremenu"
+        android:label="fragment_ayarlar_sifremenu"
+        tools:layout="@layout/fragment_ayarlar_sifremenu" >
+        <action
+            android:id="@+id/action_fragment_ayarlar_sifremenu_to_fragment_ayarlar_sifrailk"
+            app:destination="@id/fragment_ayarlar_sifrailk" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_ayarlar_sifre2"
+        android:name="com.erasmus.balnature.fragment_ayarlar_sifre2"
+        android:label="fragment_ayarlar_sifre2"
+        tools:layout="@layout/fragment_ayarlar_sifre2" >
+        <action
+            android:id="@+id/action_fragment_ayarlar_sifre2_to_fragment_ayarlar_sifremenu"
+            app:destination="@id/fragment_ayarlar_sifremenu" />
+    </fragment>
+</navigation>

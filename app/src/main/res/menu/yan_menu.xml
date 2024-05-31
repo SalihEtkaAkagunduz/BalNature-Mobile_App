@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:title="@string/yan_menu_giris">
+    <menu>
+        <item
+            android:id="@+id/fragment_menuu"
+            android:title="@string/yan_menu_menu" />
+        <item
+            android:id="@+id/fragment_haber"
+            android:title="@string/yan_menu_haber" />
+        <item
+            android:id="@+id/fragment_veri"
+            android:title="@string/yan_menu_hızlıveri" />
+    </menu>
+</item>
+    <item android:title="@string/yan_menu_bölümler">
+        <menu>
+            <item
+                android:id="@+id/fragment_veri2"
+                android:title="@string/yan_menu_veri" />
+            <item
+                android:id="@+id/yanmenuistatistikler"
+                android:title="@string/yan_menu_istatistikler" />
+            <item
+                android:id="@+id/yanmenüöneriler"
+                android:title="@string/yan_menu_öneriler" />
+            <item
+                android:id="@+id/yanmenuaraclar"
+                android:title="@string/yan_menu_araçlar" />
+
+        </menu>
+    </item>
+    <item android:title="@string/yan_menu_diger">
+        <menu>
+
+            <item
+                android:id="@+id/yanmenuayarlar"
+                android:title="@string/yan_menu_ayarlar" />
+            <item
+                android:id="@+id/yanmenuhakkinda"
+                android:title="@string/yan_menu_hakkında" />
+        </menu>
+    </item>
+
+</menu>

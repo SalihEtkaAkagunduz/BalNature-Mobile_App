@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_ayarlar"
+    app:startDestination="@id/fragment_ayarlar_ana">
+
+    <fragment
+        android:id="@+id/fragment_ayarlar_ana"
+        android:name="com.erasmus.balnature.fragment_ayarlar_ana"
+        android:label="fragment_ayarlar_ana" >
+        <action
+            android:id="@+id/action_fragment_ayarlar_ana_to_fragment_ayarlar_plan"
+            app:destination="@id/fragment_ayarlar_plan"
+            app:enterAnim="@anim/slide_up"
+            app:exitAnim="@anim/slide_down" />
+        <action
+            android:id="@+id/action_fragment_ayarlar_ana_to_fragment_ayarlar_language"
+            app:destination="@id/fragment_ayarlar_language"
+            app:enterAnim="@anim/slide_up"
+            app:exitAnim="@anim/slide_down" />
+        <action
+            android:id="@+id/action_fragment_ayarlar_ana_to_fragment_ayarlar_iletisim"
+            app:destination="@id/fragment_ayarlar_iletisim" />
+        <action
+            android:id="@+id/action_fragment_ayarlar_ana_to_fragment_ayarlar_hakkinda"
+            app:destination="@id/fragment_ayarlar_hakkinda"
+            app:enterAnim="@anim/slide_up"
+            app:exitAnim="@anim/slide_down" />
+        <action
+            android:id="@+id/action_fragment_ayarlar_ana_to_fragment_ayarlar_bilgisayarsrm"
+            app:destination="@id/fragment_ayarlar_bilgisayarsrm" />
+        <action
+            android:id="@+id/action_fragment_ayarlar_ana_to_fragment_ayarlar_sifrailk2"
+            app:destination="@id/fragment_ayarlar_sifrailk2" />
+        <action
+            android:id="@+id/action_fragment_ayarlar_ana_to_fragment_ayarlar_sifremenu2"
+            app:destination="@id/fragment_ayarlar_sifremenu2" />
+        <action
+            android:id="@+id/action_fragment_ayarlar_ana_to_fragment_ayarlar_sozlesme"
+            app:destination="@id/fragment_ayarlar_sozlesme" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_ayarlar_language"
+        android:name="com.erasmus.balnature.fragment_ayarlar_language"
+        android:label="fragment_ayarlar_language"
+        tools:layout="@layout/fragment_ayarlar_language" >
+        <action
+            android:id="@+id/action_fragment_ayarlar_language_to_fragment_ayarlar_ana"
+            app:destination="@id/fragment_ayarlar_ana"
+            app:enterAnim="@anim/slide_down"
+            app:exitAnim="@anim/slide_down" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_ayarlar_plan"
+        android:name="com.erasmus.balnature.fragment_ayarlar_plan"
+        android:label="fragment_ayarlar_plan"
+        tools:layout="@layout/fragment_ayarlar_plan" >
+        <action
+            android:id="@+id/action_fragment_ayarlar_plan_to_fragment_ayarlar_ana"
+            app:destination="@id/fragment_ayarlar_ana"
+            app:enterAnim="@anim/slide_down"
+            app:exitAnim="@anim/slide_down" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_ayarlar_iletisim"
+        android:name="com.erasmus.balnature.fragment_ayarlar_iletisim"
+        android:label="fragment_ayarlar_iletisim"
+        tools:layout="@layout/fragment_ayarlar_iletisim" >
+        <action
+            android:id="@+id/action_fragment_ayarlar_iletisim_to_fragment_ayarlar_ana"
+            app:destination="@id/fragment_ayarlar_ana" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_ayarlar_hakkinda"
+        android:name="com.erasmus.balnature.fragment_ayarlar_hakkinda"
+        android:label="fragment_ayarlar_hakkinda"
+        tools:layout="@layout/fragment_ayarlar_hakkinda" >
+        <action
+            android:id="@+id/action_fragment_ayarlar_hakkinda_to_fragment_ayarlar_ana"
+            app:destination="@id/fragment_ayarlar_ana"
+            app:enterAnim="@anim/slide_down"
+            app:exitAnim="@anim/slide_down" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_ayarlar_bilgisayarsrm"
+        android:name="com.erasmus.balnature.fragment_ayarlar_bilgisayarsrm"
+        android:label="fragment_ayarlar_bilgisayarsrm"
+        tools:layout="@layout/fragment_ayarlar_bilgisayarsrm" >
+        <action
+            android:id="@+id/action_fragment_ayarlar_bilgisayarsrm_to_fragment_ayarlar_ana"
+            app:destination="@id/fragment_ayarlar_ana" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_ayarlar_sifrailk2"
+        android:name="com.erasmus.balnature.fragment_ayarlar_sifrailk"
+        android:label="fragment_ayarlar_sifrailk"
+        tools:layout="@layout/fragment_ayarlar_sifrailk" >
+        <action
+            android:id="@+id/action_fragment_ayarlar_sifrailk2_to_fragment_ayarlar_sifre22"
+            app:destination="@id/fragment_ayarlar_sifre22" />
+        <action
+            android:id="@+id/action_fragment_ayarlar_sifrailk2_to_fragment_ayarlar_ana"
+            app:destination="@id/fragment_ayarlar_ana" />
+        <action
+            android:id="@+id/action_fragment_ayarlar_sifrailk2_self"
+            app:destination="@id/fragment_ayarlar_sifrailk2" />
+        <action
+            android:id="@+id/action_fragment_ayarlar_sifrailk2_to_fragment_ayarlar_ana2"
+            app:destination="@id/fragment_ayarlar_ana" />
+        <action
+            android:id="@+id/action_fragment_ayarlar_sifrailk2_to_fragment_ayarlar_ana3"
+            app:destination="@id/fragment_ayarlar_ana" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_ayarlar_sifre22"
+        android:name="com.erasmus.balnature.fragment_ayarlar_sifre2"
+        android:label="fragment_ayarlar_sifre2"
+        tools:layout="@layout/fragment_ayarlar_sifre2" >
+        <action
+            android:id="@+id/action_fragment_ayarlar_sifre22_to_fragment_ayarlar_sifremenu2"
+            app:destination="@id/fragment_ayarlar_sifremenu2" />
+        <action
+            android:id="@+id/action_fragment_ayarlar_sifre22_to_fragment_ayarlar_ana"
+            app:destination="@id/fragment_ayarlar_ana" />
+        <action
+            android:id="@+id/action_fragment_ayarlar_sifre22_to_fragment_ayarlar_sifrailk2"
+            app:destination="@id/fragment_ayarlar_sifrailk2" />
+        <action
+            android:id="@+id/action_fragment_ayarlar_sifre22_to_fragment_ayarlar_ana2"
+            app:destination="@id/fragment_ayarlar_ana" />
+        <action
+            android:id="@+id/action_fragment_ayarlar_sifre22_to_fragment_ayarlar_ana3"
+            app:destination="@id/fragment_ayarlar_ana" />
+        <action
+            android:id="@+id/action_fragment_ayarlar_sifre22_self"
+            app:destination="@id/fragment_ayarlar_sifre22" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_ayarlar_sifremenu2"
+        android:name="com.erasmus.balnature.fragment_ayarlar_sifremenu"
+        android:label="fragment_ayarlar_sifremenu" >
+        <action
+            android:id="@+id/action_fragment_ayarlar_sifremenu2_to_fragment_ayarlar_ana"
+            app:destination="@id/fragment_ayarlar_ana" />
+        <action
+            android:id="@+id/action_fragment_ayarlar_sifremenu2_to_fragment_ayarlar_sifrailk22"
+            app:destination="@id/fragment_ayarlar_sifrailk2" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_ayarlar_sozlesme"
+        android:name="com.erasmus.balnature.fragment_ayarlar_sozlesme"
+        android:label="fragment_ayarlar_sozlesme"
+        tools:layout="@layout/fragment_ayarlar_sozlesme" >
+        <action
+            android:id="@+id/action_fragment_ayarlar_sozlesme_to_fragment_ayarlar_ana"
+            app:destination="@id/fragment_ayarlar_ana" />
+        <action
+            android:id="@+id/action_fragment_ayarlar_sozlesme_to_fragment_ayarlar_sozll"
+            app:destination="@id/fragment_ayarlar_sozll" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_ayarlar_sozll"
+        android:name="com.erasmus.balnature.fragment_ayarlar_sozll"
+        android:label="fragment_ayarlar_sozll"
+        tools:layout="@layout/fragment_ayarlar_sozll" >
+        <action
+            android:id="@+id/action_fragment_ayarlar_sozll_to_fragment_ayarlar_sozlesme"
+            app:destination="@id/fragment_ayarlar_sozlesme" />
+    </fragment>
+</navigation>
