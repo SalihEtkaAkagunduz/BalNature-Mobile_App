@@ -1,5 +1,7 @@
-Bursa Anadolu Lisesi 2023-2024 Erasmus K-122 SRC kapsamında yapılan bir proje
+Bursa Anadolu Lisesi 2023-2024 Erasmus K-122 SRC kapsamında yapılan bir projedir
+
 uygulamanın amacı atık ve geri dönüşüm miktarını alıp analiz ederek tavsyelerde bulunmak analiz yapmak ve istatistik verilerini tutmaktır
+
 ![IMG-20240115-WA0013](https://github.com/SalihEtkaAkagunduz/balnature/assets/109075419/c72a93d2-bd97-444c-b152-e5fa1cd0e44d)
 ![IMG-20240115-WA0012](https://github.com/SalihEtkaAkagunduz/balnature/assets/109075419/8d211c70-8235-4b68-ae7e-63a7c453c9a6)
 ![IMG-20240115-WA0018](https://github.com/SalihEtkaAkagunduz/balnature/assets/109075419/81e47059-6deb-4e46-a2ae-339a563baa5f)
