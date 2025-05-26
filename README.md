@@ -50,7 +50,7 @@ Aşağıda uygulamaya ait bazı ekran görüntülerini bulabilirsiniz:
 
 | Ana Sayfa | Menü | Kayıt |
 |----------|------|-------|
-| ![Ana](https://github.com/SalihEtkaAkagunduz/balnature/assets/109075419/c72a93d2-bd97-444c-b152-e5fa1cd0e44d) | ![Menü](https://github.com/SalihEtkaAkagunduz/balnature/assets/109075419/1b0a0570-13c1-41ea-a16b-ae47875e7867) | ![Kayıt](https://github.com/SalihEtkaAkagunduz/balnature/assets/109075419/b9e94962-b21f-4309-a317-b16e5dc6ae40) |
+| ![Screenshot](https://github.com/user-attachments/assets/c16ecabf-06b9-45f8-907c-0feb080059d1) | ![dabfcfea](https://github.com/user-attachments/assets/9329cd31-d85d-4835-812a-35a3aa3ce8c2) | ![Kayıt](https://github.com/SalihEtkaAkagunduz/balnature/assets/109075419/b9e94962-b21f-4309-a317-b16e5dc6ae40) |
 
 ### 📊 Analiz ve İstatistik
 
@@ -84,8 +84,8 @@ Aşağıda uygulamaya ait bazı ekran görüntülerini bulabilirsiniz:
 |--|--|--|
 | ![0006](https://github.com/SalihEtkaAkagunduz/balnature/assets/109075419/5c206705-a70f-4c43-9a17-228ec74ad026) | ![0005](https://github.com/SalihEtkaAkagunduz/balnature/assets/109075419/cdad986c-cc20-4f16-bad6-037996daf623) | ![0007](https://github.com/SalihEtkaAkagunduz/balnature/assets/109075419/49fdf3df-f5ae-4461-b1a2-f36d52cd55ea) |
 | ![0009](https://github.com/SalihEtkaAkagunduz/balnature/assets/109075419/2633a798-a6f8-4310-8cfc-d2f500d30e6d) | ![0008](https://github.com/SalihEtkaAkagunduz/balnature/assets/109075419/fa8b4637-b2f6-4b01-a7fb-b7dd99e275e6) | ![0011](https://github.com/SalihEtkaAkagunduz/balnature/assets/109075419/71532549-8b65-4c00-833e-7d059fbc329d) |
-| ![0010](https://github.com/SalihEtkaAkagunduz/balnature/assets/109075419/5c4cecae-6630-4e09-b7fd-fcacea839831) | ![0014](https://github.com/SalihEtkaAkagunduz/balnature/assets/109075419/471f354b-973f-41d2-a8b2-9d3f5b3906ac) | ![dabfcfea](https://github.com/user-attachments/assets/9329cd31-d85d-4835-812a-35a3aa3ce8c2) |
-| ![Screenshot](https://github.com/user-attachments/assets/c16ecabf-06b9-45f8-907c-0feb080059d1) | | |
+| ![0010](https://github.com/SalihEtkaAkagunduz/balnature/assets/109075419/5c4cecae-6630-4e09-b7fd-fcacea839831) | ![0014](https://github.com/SalihEtkaAkagunduz/balnature/assets/109075419/471f354b-973f-41d2-a8b2-9d3f5b3906ac) | ![Menü](https://github.com/SalihEtkaAkagunduz/balnature/assets/109075419/1b0a0570-13c1-41ea-a16b-ae47875e7867) |
+| ![Ana](https://github.com/SalihEtkaAkagunduz/balnature/assets/109075419/c72a93d2-bd97-444c-b152-e5fa1cd0e44d)  | | |
 
 ---
 
